@@ -4,7 +4,7 @@ pipeline{
 	environment{
 		JAR_NAME="spring-docker-demo.jar"
 		IMAGE_NAME="spring-docker-demo"
-		CONTAINER_NAME="spring-docker-demo-container"
+		CONTAINER_NAME="spring-docker-demo-con"
 	}
 	stages{
 		stage('checkout'){
