@@ -34,7 +34,7 @@ pipeline{
 					docker rm %CONTAINER_NAME%|| exit 0
 				"""
 				bat """
-					docker run -d -p 8080:8080 --name %CONTAINER_NAME% %IMAGE_NAME%
+					docker run -d -p 9001:9001 --name %CONTAINER_NAME% %IMAGE_NAME%
 				"""
 			}
 		}
