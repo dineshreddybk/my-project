@@ -2,7 +2,7 @@ pipeline{
 	agent any
 	
 	environment{
-		JAR_NAME="my-project.jar"
+		JAR_NAME="spring-docker-demo.jar"
 		IMAGE_NAME="spring-docker-demo"
 		CONTAINER_NAME="spring-docker-demo-container"
 	}
